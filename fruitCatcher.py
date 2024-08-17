@@ -117,7 +117,7 @@ class Font:
         self.font3 = pygame.font.Font("AlegreyaSans-Black.ttf", 30)
 
     def start_screen(self):
-        self.start_screen_text = self.font1.render("FRUIT CATCHER BY  TheReign", True, "#F1FF03")
+        self.start_screen_text = self.font1.render("FRUIT CATCHER BY  HexHavoc", True, "#F1FF03")
         self.start_screen_text_rect = self.start_screen_text.get_rect(center=(600,80))
         start_screen_rect = pygame.draw.rect(screen, "red", self.start_screen_text_rect)
         screen.blit(self.start_screen_text, self.start_screen_text_rect)
